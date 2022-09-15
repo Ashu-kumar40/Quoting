@@ -71,10 +71,12 @@ nav {
     height: 100%;
 }
 
-.authorName {
+.authorName, .author{
     text-align: right;
     font-weight: 400;
+    font-size: 23px;
 }
+
 
 button {
     background: linear-gradient(to top left,
@@ -85,4 +87,10 @@ button {
     border-radius: 23px;
     padding: 12px;
     cursor: pointer;
+}
+
+@media (max-width:550px) {
+    .authorName, .author{
+        font-size: 15px;
+    }
 }
